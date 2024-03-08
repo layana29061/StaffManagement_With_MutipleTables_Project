@@ -1,4 +1,4 @@
-package com.javaproject.bean;
+package com.javaproject.model;
 
 public class Department {
 	private int department_id;

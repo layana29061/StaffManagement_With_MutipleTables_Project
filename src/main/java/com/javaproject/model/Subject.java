@@ -1,4 +1,4 @@
-package com.javaproject.bean;
+package com.javaproject.model;
 
 public class Subject {
 	private int subjectId;

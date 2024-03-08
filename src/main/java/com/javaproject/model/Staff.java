@@ -1,4 +1,4 @@
-package com.javaproject.bean;
+package com.javaproject.model;
 
 public class Staff {
 	
@@ -9,8 +9,15 @@ public class Staff {
 	private String gender;
 	private int roleId;
 	private int departmentId;
+	private int subjectId;
 	
 
+	public int getSubjectId() {
+		return subjectId;
+	}
+	public void setSubjectId(int subjectId) {
+		this.subjectId = subjectId;
+	}
 	public int getStaffId() {
 		return staffId;
 	}
@@ -57,8 +64,7 @@ public class Staff {
 	public String toString() {
 		return "Staff [staffId=" + staffId + ", staffName=" + staffName + ", staffEmail=" + staffEmail
 				+ ", phoneNumber=" + phoneNumber + ", gender=" + gender + ", roleId=" + roleId + ", departmentId="
-				+ departmentId + "]";
+				+ departmentId + ", subjectId=" + subjectId + "]";
 	}
-	
-	
+
 }
